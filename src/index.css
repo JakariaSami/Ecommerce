@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@500;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --box-radius: 10px;
+  --primary-green: #1f9589;
+  --primary-brown: #a37657;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.hero-section {
+  font-family: "Montserrat", sans-serif;
+}

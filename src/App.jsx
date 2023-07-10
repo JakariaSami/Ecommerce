@@ -1,7 +1,9 @@
+import Home from "./Components/Home-page/Home"
+
 function App() {
   return (
     <>
-      <h1>Hello world!</h1>
+      <Home />
     </>
   )
 }
